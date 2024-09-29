@@ -1,0 +1,55 @@
+/*************************
+* project.css            *
+*Ameekha Sherief         *             
+* 3011968408             *
+* 28-09-2024             *
+/*************************/
+
+.worksTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.worksDesc {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.worksImgs {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1 1 30%;
+    padding: 15px;
+    border: 1px solid #f1d4eb;
+    background-color: #f1d4eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+    transition: transform 0.3s ease; 
+    text-align: center;
+    max-height: 105rem;
+}
+
+.project:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 16px rgba(220, 179, 179, 0.3); 
+}
+
+.worksImg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.worksImg {
+    width: 150%;      
+    height: auto;      /* Automatically adjust the height according to the image ratio */
+    object-fit: contain; /* Ensures the image fits within its container while preserving the aspect ratio */
+    max-width: 450px;  
+    max-height: 450px;
+    display: block;    
+    margin: 0 auto;    /* Center the image if the parent container is wider than the image */
+}
