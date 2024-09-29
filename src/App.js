@@ -1,3 +1,4 @@
+/*
 import Navbar from "./components/NavBar/
 navbar";
 import Intro from "./components/NavBar/Intro/intro";
@@ -11,3 +12,4 @@ function App() {
 }
 
 export default App;
+*/
